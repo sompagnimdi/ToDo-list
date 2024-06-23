@@ -1,3 +1,22 @@
 body {
-    color: chocolate;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(244, 232, 152, 0.976);
+    cursor: pointer;
+    outline: none;
+    z-index: 0;
+}
+
+.body {
+    border: 10px solid rgba(83, 146, 185, 0.819);
+    border-radius: 15px;
+
+    background-color: rgb(26, 81, 83);
+
+    padding: 15px 40px;
+}
+
+button {
+    background-color: rgb(250, 251, 251);
 }
